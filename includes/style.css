@@ -1,3 +1,257 @@
+/*------------------------------------Desktop------------------------------------------*/
+@media (min-width: 850px){
+
+	/*----------------Desktop Step 1------------------*/
+#wrapperMobile {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#wrapperMobile .headerStep1 {
+	width: 100%;
+	height: 280px;
+	position: relative;
+}
+
+#wrapperMobile header .logo {
+	background: url(../images/BugLifeIcon.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 280px;
+	top: 49px;
+}
+
+#wrapperMobile .background {
+	width: 1000px;
+	margin: 0 auto;
+	height: 280px;
+	background: url(../images/desktopCover.jpeg);
+	position: relative;
+	display: block;
+	opacity: 0.6;
+	background-repeat: no-repeat;
+}
+
+.addDeviceIcon {
+	display: none;
+}
+.circle {
+	display: none;
+}
+
+.SentencePlus {
+	display: none;
+}
+#options {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#options a{
+	position: relative;
+	display: block;
+	/*float: left;*/
+    width: 100%;
+    height:40px;
+	text-decoration: none;
+	background-color: #cccccc;
+	color: #ffffff;
+	text-align: center;
+
+	margin-top: 30px;
+	font-family: verdana;
+	font-size: 20px;
+	line-height:40px;
+}
+
+#options a:hover{
+	background-color: #4d5056;
+}
+
+.moveAddDevice {
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+
+.moveAddDevice button{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.moveAddDevice button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.moveAddDevice button:before,.moveAddDevice button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.moveAddDevice button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.moveAddDevice button:hover:before,.moveAddDevice button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+
+
+
+	/*----------------Desktop Step 2------------------*/
+
+.headerStep2 {
+	width: 100%;
+	height: 280px;
+	position: relative;
+}
+
+.backgroundStep2 {
+		width: 1000px;
+	margin: 0 auto;
+	height: 280px;
+	background: url(../images/desktopCover.jpeg);
+	position: relative;
+	display: block;
+	opacity: 0.6;
+	background-repeat: no-repeat;
+}
+
+.logoStep2 {
+		background: url(../images/BugLifeIcon.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 280px;
+	top: 49px;
+}
+
+.addDeviceIcon2 {
+	display: none;
+}
+
+.circle2 {
+	display: none;
+}
+
+.SentencePlus2 {
+	display: none;
+}
+
+.burger2 {
+	display: none;
+}
+
+.processCircle2 {
+	display: none;
+}
+
+.processCircle2B {
+	display: none;
+}
+
+#options2 a{
+	position: relative;
+	display: block;
+	top: 50px;
+    width: 100%;
+    height:40px;
+	text-decoration: none;
+	background-color: #cccccc;
+	color: #ffffff;
+	text-align: center;
+
+	margin-top: 30px;
+	font-family: verdana;
+	font-size: 20px;
+	line-height:40px;
+}
+
+#options2 a:hover{
+	background-color: #4d5056;
+}
+
+.FindDeviceTitle2 {
+	position: relative;
+	text-align: center;
+	top: -20px;
+	font-family: verdana;
+}
+
+.FindDeviceChooseSubTitle2 {
+	position: relative;
+	text-align: center;
+	top: -40px;
+	font-family: verdana;
+}
+
+.moveAddStep2 {
+	position: relative;
+	top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}/*close media-query*/
+/*------------------------------------Mobile-------------------------------------------*/
+@media (max-width: 850px){
+
+
 #wrapperMobile {
 	width: 480px;
 	height: 735px;
@@ -25,7 +279,6 @@ body {
 	width: 480px;
 	height: 280px;
 	top: 49px;
-
 }
 
 #wrapperMobile .background {
@@ -96,6 +349,10 @@ body {
 
 #options a:hover{
 	background-color: #4d5056;
+}
+
+.moveAddDevice{
+	display: none;
 }
 
 /*----------------Find Device Flow- Step2----------------------*/
@@ -445,3 +702,6 @@ background-color: #0e60a0;
 #optionsStep5 a:hover{
 	background-color: #4d5056;
 }
+
+
+}/*close the media-query*/
