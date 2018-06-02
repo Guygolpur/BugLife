@@ -260,7 +260,15 @@ body {
 	background-position: center;
 	display: block;
 }
+.vl {
+	position: absolute;
+	top: 287px;
+    width: 997px;
+    height: 260px;
+    border: 1.5px solid green;
+    border-top: none;
 
+}
 
 #bellStep3 {
 	display: none;
@@ -295,7 +303,7 @@ body {
 	display: none;
 }
 /*-------buttons------*/
-p {
+.locate {
 	display: none;
 }
 .footerStep3, .footerStep3:before, .footerStep3:after, .faz {
@@ -308,7 +316,7 @@ p {
 
 .footerStep3 {
   position: relative;
-  top: 205px;
+  top: 201px;
   left: 920px;
 }
 .footerStep3:before, .footerStep3:after {
@@ -389,7 +397,7 @@ p {
   }
 }
 
-/*-------share--------*/
+/*--------share--------*/
 .share, .share:before, .share:after, .fab {
   height: 56px;
   width: 56px;
@@ -400,7 +408,7 @@ p {
 
 .share {
   position: relative;
-  top: 150px;
+  top: 146px;
   left: 30px;
 }
 .share:before, .share:after {
@@ -435,17 +443,22 @@ p {
 .fab:nth-child(1) {
   background: #4774d3 url(../images/fbClear.png) center/28px no-repeat;
   top: -132px;
+  left: 0px;
 }
 .fab:nth-child(2) {
   background: green url(../images/wsClear.png) center/28px no-repeat;
   top: -66px;
+  left: 0px;
 }
 .fab:nth-child(3) {
   background: #DB4437 url(https://cbwconline.com/IMG/Codepen/Google.svg) center/28px no-repeat;
+  top: 0px;
+  left: 0px;
 }
 .fab:nth-child(4) {
   background: #ffffff url(../images/bugsLifeLink.png) center/28px no-repeat;
   top: -198px;
+  left: 0px;
 }
 .fab.active {
   animation: 0.48s up forwards;
@@ -487,8 +500,86 @@ p {
   }
 }
 
+/*----------Pop-Up---------*/
+
+/* The Modal (background) */
 
 
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    font-family: verdana;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.chooseShare {
+	text-decoration: none;
+	color: #000000;
+}
 
 
 
