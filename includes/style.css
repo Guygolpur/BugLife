@@ -587,10 +587,72 @@ body {
 
 
 
+	/*----------------Desktop Step 5------------------*/
 
+.headerStep5 {
+	width: 100%;
+	height: 280px;
+	position: relative;
+}
 
+.background5 {
+	width: 1000px;
+	margin: 0 auto;
+	height: 280px;
+	background: url(../images/desktopCover.jpeg);
+	position: relative;
+	display: block;
+	opacity: 0.6;
+	background-repeat: no-repeat;
+}
 
+.logoStep5 {
+			background: url(../images/BugLifeIcon.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 280px;
+	top: 49px;
+}
 
+#wrapperMobile .mainStep5 h2 {
+	font-family: verdana;
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+	top: 15px;
+}
+
+#wrapperMobile .mainStep5 h3 {
+	font-family: verdana;
+	position: relative;
+	text-align: center;
+	top: 15px;
+}
+
+#optionsStep5 a{
+	position: relative;
+	float: left;
+    width: 200px;
+    height:50px;
+	text-decoration: none;
+	background-color: #cccccc;
+	color: #ffffff;
+	text-align: center;
+	top: 30px;
+	left: 25%;
+	margin: 20px;
+	font-family: verdana;
+	font-size: 20px;
+	line-height:50px;
+
+}
+
+#optionsStep5 a:hover{
+	background-color: #4d5056;
+}
 
 
 
