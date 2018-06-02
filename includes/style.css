@@ -220,7 +220,175 @@ body {
 }
 
 
+/*----------------Desktop Step 3------------------*/
 
+.headerStep3 {
+	width: 100%;
+	height: 280px;
+	position: relative;
+}
+
+.background3 {
+	width: 1000px;
+	margin: 0 auto;
+	height: 280px;
+	background: url(../images/desktopCover.jpeg);
+	position: relative;
+	display: block;
+	opacity: 0.6;
+	background-repeat: no-repeat;
+}
+
+.logoStep3 {
+			background: url(../images/BugLifeIcon.png);
+	background-repeat: no-repeat;
+	display: block;
+	background-position: center;
+	position: absolute;
+	width: 100%;
+	height: 280px;
+	top: 49px;
+}
+
+#wrapperMobile .mapStep3 {
+	top: 10px;
+	width: 1000px;
+	height: 250px;
+	background: url(../images/gpsMap.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: center;
+	display: block;
+}
+
+
+#bellStep3 {
+	display: none;
+}
+
+.carNevigateStep3 {
+	display: none;
+}
+
+.shareStep3 {
+	display: none;
+}
+
+#lightOffStep3 {
+	display: none;
+}
+
+.footerStep3 p {
+	position: relative;
+	text-align: center;
+	font-family: verdana;
+	font-size: 17px;
+	top: 0px;
+}
+
+.moveAddStep3 {
+	position: relative;
+	top: 80px;
+}
+
+.newSearchStep3 {
+	display: none;
+}
+
+/*-------share--------*/
+.share, .share:before, .share:after, .fab {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.share {
+  position: relative;
+  top: 150px;
+  left: 30px;
+}
+.share:before, .share:after {
+  content: "";
+  will-change: transform;
+}
+.share:before {
+  background: url(../images/shareClear.png) center/28px no-repeat;
+  z-index: 5;
+  transition: 0.2s;
+}
+.share:after {
+  background: #d7dbe2;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  transition: 0.39s;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.share.active:before {
+  transform: rotate(90deg);
+}
+
+.fab {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  animation: 0.3s down forwards;
+  opacity: 0;
+  will-change: animation;
+}
+.fab:nth-child(1) {
+  background: #4774d3 url(../images/fbClear.png) center/28px no-repeat;
+  top: -132px;
+}
+.fab:nth-child(2) {
+  background: green url(../images/wsClear.png) center/28px no-repeat;
+  top: -66px;
+}
+.fab:nth-child(3) {
+  background: #DB4437 url(https://cbwconline.com/IMG/Codepen/Google.svg) center/28px no-repeat;
+}
+.fab:nth-child(4) {
+  background: #ffffff url(../images/bugsLifeLink.png) center/28px no-repeat;
+  top: -198px;
+}
+.fab.active {
+  animation: 0.48s up forwards;
+}
+.fab.active:nth-child(1) {
+  animation-delay: 0.39s;
+}
+.fab.active:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.fab.active:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.fab.no {
+  animation: none;
+}
+
+@keyframes up {
+  50% {
+    transform: translateY(-170%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-130%);
+  }
+}
+@keyframes down {
+  0% {
+    opacity: 1;
+    transform: translateY(-130%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(0);
+    top: 0;
+  }
+}
 
 
 
