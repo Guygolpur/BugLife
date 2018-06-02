@@ -5,6 +5,12 @@ $(".share").on('click', function(e) {
   $('.share, .fab').toggleClass("active");
 });
 	
+
+	$(".footerStep3").on('click', function(e) {
+  $(".faz").removeClass("bo");
+  if(e.target != this) return;
+  $('.footerStep3, .faz').toggleClass("active");
+});
 	});
 
 function ring()
