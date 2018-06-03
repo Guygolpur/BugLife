@@ -122,6 +122,42 @@ body {
 }
 
 
+/*burger display*/
+.goldaPic {
+  display: none;
+}
+.blueAreaBurger {
+  display: none;
+}
+#menuToggle input:checked ~ ul {
+  display: none;
+}
+#menu li {
+	display: none;
+}
+#menu {
+	display: none;
+}
+#menuToggle input:checked ~ span {
+	display: none;
+}
+#menuToggle span {
+	display: none;
+}
+#menuToggle input {
+	display: none;
+}
+#menuToggle {
+	display: none;
+}
+                        
+
+
+
+
+
+
+
 
 
 
@@ -218,6 +254,46 @@ body {
 	position: relative;
 	top: 30px;
 }
+
+
+/*burger display*/
+.goldaPic2 {
+  display: none;
+}
+.blueAreaBurger2 {
+  display: none;
+}
+#menuToggle2 input:checked ~ ul {
+  display: none;
+}
+#menu2 li {
+	display: none;
+}
+#menu2 {
+	display: none;
+}
+#menuToggle2 input:checked ~ span {
+	display: none;
+}
+#menuToggle2 span {
+	display: none;
+}
+#menuToggle2 input {
+	display: none;
+}
+#menuToggle2 {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*----------------Desktop Step 3------------------*/
@@ -584,6 +660,36 @@ body {
 
 
 
+/*burger display*/
+.goldaPic3 {
+  display: none;
+}
+.blueAreaBurger3 {
+  display: none;
+}
+#menuToggle3 input:checked ~ ul {
+  display: none;
+}
+#menu3 li {
+	display: none;
+}
+#menu3 {
+	display: none;
+}
+#menuToggle3 input:checked ~ span {
+	display: none;
+}
+#menuToggle3 span {
+	display: none;
+}
+#menuToggle3 input {
+	display: none;
+}
+#menuToggle3 {
+	display: none;
+}
+
+
 
 
 
@@ -654,7 +760,34 @@ body {
 	background-color: #4d5056;
 }
 
-
+/*burger display*/
+.goldaPic5 {
+  display: none;
+}
+.blueAreaBurger5 {
+  display: none;
+}
+#menuToggle5 input:checked ~ ul {
+  display: none;
+}
+#menu5 li {
+	display: none;
+}
+#menu5 {
+	display: none;
+}
+#menuToggle5 input:checked ~ span {
+	display: none;
+}
+#menuToggle5 span {
+	display: none;
+}
+#menuToggle5 input {
+	display: none;
+}
+#menuToggle5 {
+	display: none;
+}
 
 
 
@@ -706,17 +839,6 @@ body {
 	position: relative;
 	display: block;
 	opacity: 0.6;
-}
-
-.burger {
-	position: relative;
-	top: -270px;
-	left: 15px;
-	width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-    background-color: #0e60a0;
 }
 
 .addDeviceIcon {
@@ -772,6 +894,134 @@ body {
 .moveAddDevice{
 	display: none;
 }
+
+/*----------Burger--------*/
+#menu a/*inside settings*/
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+#menu a:hover
+{
+  color: tomato;
+}
+
+#menuToggle/*Burger icon's settings*/
+{
+  display: block;
+  position: relative;
+  top: -260px;
+  left: 15px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span/*Lines creating burger icon*/
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #0e60a0;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle input:checked ~ span/*icon going side after click*/
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+
+#menu
+{
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 580px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle input:checked ~ ul/*control the box*/
+{
+  transform: none;
+}
+
+
+.blueAreaBurger {
+	position: relative;
+	height: 150px;
+	width: 272px;
+	background-color: #7294cc;
+	top: -80px;
+	left: -22px;
+}
+
+.goldaPic {
+	position: relative;
+	top: 50%;
+	height: 52px;
+	width: 62px;
+	border-radius: 40px;
+	background: url(../images/Golda.png);
+	left: 35%;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*----------------Find Device Flow- Step2----------------------*/
 #wrapperMobile .headerStep2 {
@@ -878,6 +1128,143 @@ body {
 #options2 a:hover{
 	background-color: #4d5056;
 }
+
+/*----------Burger--------*/
+#menu2 a/*inside settings*/
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+#menu2 a:hover
+{
+  color: tomato;
+}
+
+#menuToggle2/*Burger icon's settings*/
+{
+  display: block;
+  position: relative;
+  top: -214px;
+  left: 15px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle2 input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+#menuToggle2 span/*Lines creating burger icon*/
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #0e60a0;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle2 input:checked ~ span/*icon going side after click*/
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+
+#menu2
+{
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 580px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu2 li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle2 input:checked ~ ul/*control the box*/
+{
+  transform: none;
+}
+
+
+.blueAreaBurger2 {
+	position: relative;
+	height: 150px;
+	width: 272px;
+	background-color: #7294cc;
+	top: -80px;
+	left: -22px;
+}
+
+.goldaPic2 {
+	position: relative;
+	top: 50%;
+	height: 52px;
+	width: 62px;
+	border-radius: 40px;
+	background: url(../images/Golda.png);
+	left: 35%;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*----------------Find Device Flow- Step3----------------------*/
 
@@ -1028,6 +1415,144 @@ background-color: #0e60a0;
 	left: 70px;
 }
 
+/*----------Burger--------*/
+#menu3 a/*inside settings*/
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+#menu3 a:hover
+{
+  color: tomato;
+}
+
+#menuToggle3/*Burger icon's settings*/
+{
+  display: block;
+  position: absolute;
+  top: 28px;
+  left: 23px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle3 input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+#menuToggle3 span/*Lines creating burger icon*/
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #0e60a0;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle3 input:checked ~ span/*icon going side after click*/
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+
+#menu3
+{
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 580px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu3 li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle3 input:checked ~ ul/*control the box*/
+{
+  transform: none;
+}
+
+
+.blueAreaBurger3 {
+	position: relative;
+	height: 150px;
+	width: 272px;
+	background-color: #7294cc;
+	top: -80px;
+	left: -22px;
+}
+
+.goldaPic3 {
+	position: relative;
+	top: 50%;
+	height: 52px;
+	width: 62px;
+	border-radius: 40px;
+	background: url(../images/Golda.png);
+	left: 35%;
+	background-repeat: no-repeat;
+}
+
+/*disable Pop-Up from desktop*/
+.chooseShare {
+	display: none;
+}
+.modal-footer {
+	display: none;
+}
+.modal-body {
+	display: none;
+}
+.modal-header {
+	display: none;
+}
+.close {
+	display: none;
+}
+
+
+
+
+
+
+
+
 /*----------------Find Device Flow- Step4----------------------*/
 #wrapperMobile .headerStep4 {
 	width: 480px;
@@ -1079,6 +1604,130 @@ background-color: #0e60a0;
 	text-align: center;
 }
 
+/*----------Burger--------*/
+#menu4 a/*inside settings*/
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+#menu4 a:hover
+{
+  color: tomato;
+}
+
+#menuToggle4/*Burger icon's settings*/
+{
+  display: block;
+  position: absolute;
+  top: 27px;
+  left: 23px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle4 input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+#menuToggle4 span/*Lines creating burger icon*/
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #0e60a0;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle4 input:checked ~ span/*icon going side after click*/
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+
+#menu4
+{
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 580px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu4 li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle4 input:checked ~ ul/*control the box*/
+{
+  transform: none;
+}
+
+
+.blueAreaBurger4 {
+	position: relative;
+	height: 150px;
+	width: 272px;
+	background-color: #7294cc;
+	top: -80px;
+	left: -22px;
+}
+
+.goldaPic4 {
+	position: relative;
+	top: 50%;
+	height: 52px;
+	width: 62px;
+	border-radius: 40px;
+	background: url(../images/Golda.png);
+	left: 35%;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
 /*----------------Find Device Flow- Step5----------------------*/
 #wrapperMobile .headerStep5 {
 	width: 480px;
@@ -1119,6 +1768,121 @@ background-color: #0e60a0;
 
 #optionsStep5 a:hover{
 	background-color: #4d5056;
+}
+
+
+/*----------Burger--------*/
+#menu5 a/*inside settings*/
+{
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+}
+
+#menu5 a:hover
+{
+  color: tomato;
+}
+
+#menuToggle5/*Burger icon's settings*/
+{
+  display: block;
+  position: absolute;
+  top: 27px;
+  left: 23px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle5 input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+
+#menuToggle5 span/*Lines creating burger icon*/
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #0e60a0;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle5 input:checked ~ span/*icon going side after click*/
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+
+#menu5
+{
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 580px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu5 li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+
+#menuToggle5 input:checked ~ ul/*control the box*/
+{
+  transform: none;
+}
+
+
+.blueAreaBurger5 {
+	position: relative;
+	height: 150px;
+	width: 272px;
+	background-color: #7294cc;
+	top: -80px;
+	left: -22px;
+}
+
+.goldaPic5 {
+	position: relative;
+	top: 50%;
+	height: 52px;
+	width: 62px;
+	border-radius: 40px;
+	background: url(../images/Golda.png);
+	left: 35%;
+	background-repeat: no-repeat;
 }
 
 
