@@ -151,7 +151,57 @@ body {
 	display: none;
 }
                         
+/*------navBar-----*/
+ 
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+}
 
+.nav li {
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  left: 40px;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav a:hover {
+  background-color: #005f5f;
+  border-radius: 10px;
+}
+
+.nav li {
+  float: left;
+  margin: 10px;
+}
+
+.nav ul {  
+  overflow: auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav {
+  background-color: #444;
+  position: absolute;
+  top: 0px;
+  width: 1000px;
+}
+ 
+.navLogo {
+  border-radius: 10px;
+  height: 45px;
+}
 
 
 
@@ -285,7 +335,57 @@ body {
 	display: none;
 }
 
+/*------navBar-----*/
+ 
+.nav2 ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+}
 
+.nav2 li {
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  left: 40px;
+}
+ 
+.nav2 a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav2 a:hover {
+  background-color: #005f5f;
+  border-radius: 10px;
+}
+
+.nav2 li {
+  float: left;
+  margin: 10px;
+}
+
+.nav2 ul {  
+  overflow: auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav2 {
+  background-color: #444;
+  position: absolute;
+  top: 0px;
+  width: 1000px;
+}
+ 
+.navLogo2 {
+  border-radius: 10px;
+  height: 45px;
+}
 
 
 
@@ -779,8 +879,73 @@ display: none;
 	position: relative;
 	top: 250px;
 	left: 250px;
-
 }
+
+/*------navBar-----*/
+ 
+.nav3 ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+}
+
+.nav3 li {
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  left: 40px;
+}
+ 
+.nav3 a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav3 a:hover {
+  background-color: #005f5f;
+  border-radius: 10px;
+}
+
+.nav3 li {
+  float: left;
+  margin: 10px;
+}
+
+.nav3 ul {  
+  overflow: auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav3 {
+  background-color: #444;
+  position: absolute;
+  top: 0px;
+  width: 1000px;
+}
+ 
+.navLogo3 {
+  border-radius: 10px;
+  height: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 	/*----------------Desktop Step 5------------------*/
@@ -879,7 +1044,57 @@ display: none;
 	display: none;
 }
 
+/*------navBar-----*/
+ 
+.nav5 ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+}
 
+.nav5 li {
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  left: 40px;
+}
+ 
+.nav5 a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav5 a:hover {
+  background-color: #005f5f;
+  border-radius: 10px;
+}
+
+.nav5 li {
+  float: left;
+  margin: 10px;
+}
+
+.nav5 ul {  
+  overflow: auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav5 {
+  background-color: #444;
+  position: absolute;
+  top: 0px;
+  width: 1000px;
+}
+ 
+.navLogo5 {
+  border-radius: 10px;
+  height: 45px;
+}
 
 
 
@@ -1106,7 +1321,38 @@ body {
   font-family: verdana;
 }
 
+/*nav for desktop*/
+.nav ul {
+  display: none;
+}
 
+.nav li {
+  display: none;
+}
+ 
+.nav a {
+  display: none;
+}
+ 
+.nav a:hover {
+  display: none;
+}
+
+.nav li {
+  display: none;
+}
+
+.nav ul {  
+  display: none;
+}
+
+.nav {
+  display: none;
+}
+ 
+.navLogo {
+  display: none;
+}
 
 
 
@@ -1345,7 +1591,38 @@ body {
   font-family: verdana;
 }
 
+/*nav for desktop*/
+.nav2 ul {
+  display: none;
+}
 
+.nav2 li {
+  display: none;
+}
+ 
+.nav2 a {
+  display: none;
+}
+ 
+.nav2 a:hover {
+  display: none;
+}
+
+.nav2 li {
+  display: none;
+}
+
+.nav2 ul {  
+  display: none;
+}
+
+.nav2 {
+  display: none;
+}
+ 
+.navLogo2 {
+  display: none;
+}
 
 
 
@@ -1652,6 +1929,45 @@ background-color: #0e60a0;
   top:20px;
   font-family: verdana;
 }
+
+/*nav for desktop*/
+.nav3 ul {
+  display: none;
+}
+
+.nav3 li {
+  display: none;
+}
+ 
+.nav3 a {
+  display: none;
+}
+ 
+.nav3 a:hover {
+  display: none;
+}
+
+.nav3 li {
+  display: none;
+}
+
+.nav3 ul {  
+  display: none;
+}
+
+.nav3 {
+  display: none;
+}
+ 
+.navLogo3 {
+  display: none;
+}
+
+
+
+
+
+
 
 
 
@@ -2002,6 +2318,39 @@ background-color: #0e60a0;
   left: 77px;
   top:20px;
   font-family: verdana;
+}
+
+/*nav for desktop*/
+.nav5 ul {
+  display: none;
+}
+
+.nav5 li {
+  display: none;
+}
+ 
+.nav5 a {
+  display: none;
+}
+ 
+.nav5 a:hover {
+  display: none;
+}
+
+.nav5 li {
+  display: none;
+}
+
+.nav5 ul {  
+  display: none;
+}
+
+.nav5 {
+  display: none;
+}
+ 
+.navLogo5 {
+  display: none;
 }
 
 }/*close the media-query*/
