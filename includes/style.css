@@ -1743,52 +1743,52 @@ background-color: #0e60a0;
 }*/
 
 #bellStep3 {
-	position: relative;
+	position: absolute;
 	font-size: 40px;
 	color: #000000;
-	top: -65px;
+	top: 10px;
 	left: 15px;
 	width: 15px;
 }
 
 #bellStep3.active {
-	position: relative;
+	position: absolute;
 	font-size: 40px;
 	color: #ffffff;
-	top: -65px;
+	top: 10px;
 	left: 15px;
 }
 
 .carNevigateStep3 {
-	position: relative;
+	position: absolute;
 	font-size: 45px;
 	color: #000000;
-	top: -160px;
+	top: 10px;
 	left: 370px;
 }
 
 .shareStep3 {
-	position: relative;
+	position: absolute;
 	font-size: 40px;
 	color: #000000;
-	top: -208px;
+	top: 10px;
 	left: 430px;
 }
 
 #lightOffStep3 {
-	position: relative;
+	position: absolute;
 	font-size: 40px;
 	color: #000000;
-	top: -111px;
+	top: 10px;
 	left: 70px;
 	width: 15px;
 }
 
 #lightOffStep3.active {
-	position: relative;
+	position: absolute;
 	font-size: 40px;
 	color: #ffffff;
-	top: -111px;
+	top: 10px;
 	left: 70px;
 }
 
