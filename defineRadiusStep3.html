@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="includes/style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- addDeviceIcon -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- font-awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet">
+		<!-- JS and JQ -->
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="includes/main.js" async></script>
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+
+
+
+		<title>BugLife</title>
+	</head>
+
+	<body>
+		<div id="wrapperMobile">
+
+			<header class="headerStep3B">
+				<div class="process1Circle3B"></div>
+				<div class="process2Circle3B"></div>
+				<div class="process3Circle3B"></div>
+				<!-- navBar -->
+				<div class="nav3B">
+             		<ul>
+              			<li><img src="images/golda.png" class="navLogo3B"></li>
+              			<li class="profile3B"><a href="#">profile</a></li>
+              			<li class="settings3B"><a href="#">settings</a></li>
+              			<li class="sosSettings3B"><a href="#">sos settings</a></li>
+              			<li class="purchase3B"><a href="#">purchase</a></li>
+              			<li class="history3B"><a href="#">history</a></li>
+              			<li class="log out3B"><a href="#">log out</a></li>
+              			<li class="homeIcon3B"><a href="index.html"> <i class="fas fa-home"></i></a></li>
+            		</ul>
+          		</div>
+			</header>
+
+			<main class="mainDefine3B">
+				<h1>Choose a message:</h1>
+				<section class="defineForm3">
+				<input class="standartWord" onclick="document.getElementById('custom').disabled = false; document.getElementById('charstype').disabled = true;" type="radio" name="type" checked="checked">Customize
+				<input class="standartText" type="text" name="custom" id="custom" placeholder="Write a message.." >
+				</section>
+				<section class="defineCustume">
+				<input onclick="document.getElementById('custom').disabled = true; document.getElementById('charstype').disabled = false;" type="radio" name="type" value="customurl">Standart 
+				</section>
+				<section class="CustomBox">Hey Golda! You left your device's radius</section>
+
+				<section class="defineNext2"><a href="defineRadiusStep4.html">Next</a></section>
+
+				
+			</main>
+
+
+		<!------------- Burger --------------->
+			<nav role="navigation">
+  				<div id="menuToggle3B">
+    				<input type="checkbox" />
+    				<span></span>
+    				<span></span>
+    				<span></span>
+    				<ul id="menu3B">
+    					<section class="blueAreaBurger3B">
+    						<h3 class="HelloGolda3B">Hello Golda!</h3>
+    						<div class="goldaPic3B"></div>
+    					</section>
+    					<a href="index.html"><i class="fas fa-home"></i></a>
+      					<a href="#"><li>Profile</li></a>
+      					<a href="#"><li>Settings</li></a>
+      					<a href="#"><li>S.O.S Settings</li></a>
+      					<a href="#"><li>Purchase</li></a>
+      					<a href="#"><li>History</li></a>
+      					<a href="#"><li>Log out</li></a>
+    				</ul>
+  				</div>
+			</nav>
+
+
+		</div>
+	</body>
+</html>

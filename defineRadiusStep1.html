@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="includes/style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- addDeviceIcon -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- font-awesome -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet">
+		<!-- JS and JQ -->
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script src="includes/main.js" async></script>
+    <!-- google font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+
+
+
+		<title>BugLife</title>
+	</head>
+
+	<body>
+		<div id="wrapperMobile">
+
+			<header class="headerStep1B">
+				<div class="backgroundStep1B"></div>
+				<div class="logoStep1B"></div>
+				<div class="process1Circle1B"></div>
+				<div class="process2Circle1B"></div>
+				<div class="process3Circle1B"></div>
+				<h1 class="defineRadiusTitle1B">Define Radius</h1>
+				<!-- navBar -->
+				<div class="nav1B">
+             		<ul>
+              			<li><img src="images/golda.png" class="navLogo1B"></li>
+              			<li class="profile1B"><a href="#">profile</a></li>
+              			<li class="settings1B"><a href="#">settings</a></li>
+              			<li class="sosSettings1B"><a href="#">sos settings</a></li>
+              			<li class="purchase1B"><a href="#">purchase</a></li>
+              			<li class="history1B"><a href="#">history</a></li>
+              			<li class="log out1B"><a href="#">log out</a></li>
+              			<li class="homeIcon1B"><a href="index.html"> <i class="fas fa-home"></i></a></li>
+            		</ul>
+          		</div>
+			</header>
+
+			<nav id="options1B">
+<!-- Form -->
+<form name="myForm" action="http://html5-book.co.il/teach/forms/get_form2.php" onsubmit="return validateForm(this)" method="get"
+	autocomplete="on">
+
+				<span class="color-picker"></span>
+				<label>
+					<span class="custom-dropdown big">
+					    <select type="text" required name="address">
+					    	<option disabled selected value> -- Please choose a device -- </option>   
+					        <option>Keys</option>
+					        <option>My PC</option>  
+					        <option>Jack my dog</option>
+					        <option>All devices</option>
+					    </select>
+					</span>
+				</label>
+
+				<label>
+					<span class="custom-dropdown big">
+					    <select type="text" required name="age">
+					    	<option disabled selected value> -- Choose notification -- </option>   
+					        <option>Sensor ring</option>
+					        <option>SMS message to my phone</option>  
+					        <option>App notification</option>
+					        <option>Email message</option>
+					    </select>
+					</span>
+				</label>
+				<label>
+					<span class="custom-dropdown big">
+					    <select type="text" required name="website">
+					    	<option disabled selected value> -- Define radius by -- </option>    
+					        <option>Map</option>
+					        <option>Location (distance)</option>  
+					    </select>
+					</span>
+				</label>
+
+				<div class="moveAddStep1B"><div class="moveAddDevice1B"><button>Add/Edit device</button></div></div>
+				<section class="defineNext"><a href="defineRadiusStep2.html">Next</a></section>
+	<input class="send" type="submit" name="submit" value="Next">
+	</form>
+
+		</nav>
+
+
+		<!-- 		<FORM NAME="nav">
+			<DIV>
+
+				<span class="color-picker"></span>
+				<label>
+					<span class="custom-dropdown big">
+					    <select type="text" required name="address">
+					    	<option disabled selected value> -- Please choose a device -- </option>   
+					        <option>Keys</option>
+					        <option>My PC</option>  
+					        <option>Jack my dog</option>
+					        <option>All devices</option>
+					    </select>
+					</span>
+				</label>
+
+				<label>
+					<span class="custom-dropdown big">
+					    <select type="text" required name="age">
+					    	<option disabled selected value> -- Choose notification -- </option>   
+					        <option>Sensor ring</option>
+					        <option>SMS message to my phone</option>  
+					        <option>App notification</option>
+					        <option>Email message</option>
+					    </select>
+					</span>
+				</label>
+
+
+
+				<label>
+					<span class="custom-dropdown big">
+						<SELECT NAME="SelectURL" onChange="document.location.href=document.nav.SelectURL.options[document.nav.SelectURL.selectedIndex].value">
+
+							<OPTION VALUE="defineRadiusStep1.html"
+								SELECTED>-- Define radius by --
+							<OPTION VALUE="defineRadiusStep2.html">
+								Map
+							<OPTION VALUE="defineRadiusStep3.html">
+								Location (distance)
+						</SELECT>
+					</span>
+				</label>
+
+			</DIV>
+		</FORM> -->
+
+		<!------------- Burger --------------->
+			<nav role="navigation">
+  				<div id="menuToggle1B">
+    				<input type="checkbox" />
+    				<span></span>
+    				<span></span>
+    				<span></span>
+    				<ul id="menu1B">
+    					<section class="blueAreaBurger1B">
+    						<h3 class="HelloGolda1B">Hello Golda!</h3>
+    						<div class="goldaPic1B"></div>
+    					</section>
+    					<a href="index.html"><i class="fas fa-home"></i></a>
+      					<a href="#"><li>Profile</li></a>
+      					<a href="#"><li>Settings</li></a>
+      					<a href="#"><li>S.O.S Settings</li></a>
+      					<a href="#"><li>Purchase</li></a>
+      					<a href="#"><li>History</li></a>
+      					<a href="#"><li>Log out</li></a>
+    				</ul>
+  				</div>
+			</nav>
+
+
+		</div>
+	</body>
+</html>
