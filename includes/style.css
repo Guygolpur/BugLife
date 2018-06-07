@@ -1102,9 +1102,585 @@ display: none;
 
 
 
+/*----------------Desktop Define Radius Step 1----------------------*/
+#wrapperMobile1B {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#wrapperMobile1B .headerStep1B {
+  width: 100%;
+  height: 340px;
+  position: relative;
+}
+
+#wrapperMobile1B .logoStep1B {
+  background: url(../images/BugLifeIcon.png);
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 280px;
+  top: 49px;
+}
+
+#wrapperMobile1B .backgroundStep1B {
+  width: 1000px;
+  margin: 0 auto;
+  height: 280px;
+  background: url(../images/desktopCover.jpeg);
+  position: relative;
+  display: block;
+  opacity: 0.6;
+  background-repeat: no-repeat;
+}
+
+.defineRadiusTitle1B {
+  position: relative;
+  text-align: center;
+  top: 0px;
+  font-family: verdana;
+}
+
+/*Next page*/
+
+.defineNext a{
+  position: relative;
+  display: block;
+  top: 0px;
+  width: 40%;
+  margin: 0 auto;
+  height:40px;
+  text-decoration: none;
+  background-color: #cccccc;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+  font-family: verdana;
+  font-size: 20px;
+  line-height:40px;
+}
+
+.defineNext a:hover{
+  background-color: #4d5056;
+}
+
+/*----form--------*/
+.big {
+  font-size: 1.2em;
+}
+
+#wrapperMobile1B form {
+  position: relative;
+  left: 20px;
+  top: 
+}
+
+
+/* Custom dropdown */
+.custom-dropdown {
+  position: relative;
+  top: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.custom-dropdown select {
+
+  background-color: #1abc9c;
+  width: 300px;
+  color: #fff;
+  font-size: inherit;
+  padding: .5em;
+  padding-right: 2.5em; 
+  border: 0;
+  margin: 0;
+  border-radius: 3px;
+  text-indent: 0.01px;
+  text-overflow: '';
+  -webkit-appearance: button; /* hide default arrow in chrome OSX */
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+
+.custom-dropdown::after { /*  Custom dropdown arrow */
+  content: "\25BC";
+  height: 1em;
+  font-size: .625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -.5em;
+}
+
+.custom-dropdown::before { /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown select[disabled] {
+  color: rgba(0,0,0,.3);
+}
+
+.custom-dropdown select[disabled]::after {
+  color: rgba(0,0,0,.1);
+}
+
+.custom-dropdown::before {
+  background-color: rgba(0,0,0,.15);
+}
+
+.custom-dropdown::after {
+  color: rgba(0,0,0,.4);
+}
+ 
+
+/*Green add/edit device*/
+.moveAddDevice1B {
+  position: relative;
+  top: 0px;
+  text-align: center;
+}
+
+.moveAddDevice1B button{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+}
+.moveAddDevice1B button:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.moveAddDevice1B button:before,.moveAddDevice1B button:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.moveAddDevice1B button:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.moveAddDevice1B button:hover:before,.moveAddDevice1B button:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
+/*burger display*/
+#menuToggle1B {
+  display: none;
+}
+                        
+/*------navBar-----*/
+ 
+.nav1B ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+}
+
+.nav1B li {
+  position: relative;
+  font-family: 'Acme', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 41px;
+  border-bottom: 1px solid #888;
+  left: 40px;
+}
+ 
+.nav1B a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav1B a:hover {
+  background-color: #005f5f;
+  border-radius: 10px;
+}
+
+.nav1B li {
+  float: left;
+  margin: 10px;
+}
+
+.nav1B ul {  
+  overflow: auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav1B {
+  background-color: #444;
+  position: absolute;
+  top: 0px;
+  width: 1000px;
+}
+ 
+.navLogo1B {
+  border-radius: 10px;
+  height: 45px;
+}
+
+
+
+
+
+
+
+
+/*----------------Desktop Define Radius Step 2----------------------*/
+#wrapperMobile2B {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#wrapperMobile2B .headerStep2B {
+  width: 100%;
+  height: 280px;
+  position: relative;
+}
+
+#wrapperMobile2B .logoStep2B {
+  background: url(../images/BugLifeIcon.png);
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 280px;
+  top: 49px;
+}
+
+#wrapperMobile2B .backgroundStep2B {
+  width: 1000px;
+  margin: 0 auto;
+  height: 280px;
+  background: url(../images/desktopCover.jpeg);
+  position: relative;
+  display: block;
+  opacity: 0.6;
+  background-repeat: no-repeat;
+}
+
+.radiusFooter h3 {
+  font-family: verdana;
+  font-size: 14px;
+  line-height: 55px;
+}
+
+#defineRadiusMap {
+  top: 0px;
+  left: 140px;
+  width: 100%;
+  height: 250px;
+  background: url(../images/gpsMap.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.radiusFooter {
+  position: relative;
+  bottom: 13px;
+  border: 0px solid #000000;
+  background-color: #6e9fef;
+  width: 1000px;
+  height: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.radiusArrow {
+  position: relative;
+  bottom: 60px;
+  left: 400px;
+  font-size: 40px;
+}
+
+/*burger display*/
+#menuToggle2B {
+  display: none;
+}
+                        
+/*------navBar-----*/
+ 
+.nav2B ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+}
+
+.nav2B li {
+  position: relative;
+  font-family: 'Acme', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 41px;
+  border-bottom: 1px solid #888;
+  left: 40px;
+}
+ 
+.nav2B a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav2B a:hover {
+  background-color: #005f5f;
+  border-radius: 10px;
+}
+
+.nav2B li {
+  float: left;
+  margin: 10px;
+}
+
+.nav2B ul {  
+  overflow: auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav2B {
+  background-color: #444;
+  position: absolute;
+  top: 0px;
+  width: 1000px;
+}
+ 
+.navLogo2B {
+  border-radius: 10px;
+  height: 45px;
+}
+
+
+
+
+
+
+/*----------------Desktop Define Radius Step 3----------------------*/
+
+#wrapperMobile3B {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#wrapperMobile3B .headerStep3B {
+  width: 100%;
+  height: 280px;
+  position: relative;
+}
+
+#wrapperMobile3B .logoStep3B {
+  background: url(../images/BugLifeIcon.png);
+  background-repeat: no-repeat;
+  display: block;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 280px;
+  top: 49px;
+}
+
+#wrapperMobile3B .backgroundStep3B {
+  width: 1000px;
+  margin: 0 auto;
+  height: 280px;
+  background: url(../images/desktopCover.jpeg);
+  position: relative;
+  display: block;
+  opacity: 0.6;
+  background-repeat: no-repeat;
+}
+
+.defineNext2 {
+  display: none;
+}
+
+
+/*burger display*/
+#menuToggle3B {
+  display: none;
+}
+                        
+/*------navBar-----*/
+ 
+.nav3B ul {
+  list-style: none;
+  background-color: #444;
+  text-align: center;
+}
+
+.nav3B li {
+  position: relative;
+  font-family: 'Acme', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 41px;
+  border-bottom: 1px solid #888;
+  left: 40px;
+}
+ 
+.nav3B a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+ 
+.nav3B a:hover {
+  background-color: #005f5f;
+  border-radius: 10px;
+}
+
+.nav3B li {
+  float: left;
+  margin: 10px;
+}
+
+.nav3B ul {  
+  overflow: auto;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.nav3B {
+  background-color: #444;
+  position: absolute;
+  top: 0px;
+  width: 1000px;
+}
+ 
+.navLogo3B {
+  border-radius: 10px;
+  height: 45px;
+}
+
+/*main message*/
+
+.mainDefine3B h1 {
+  position: relative;
+  text-align: center;
+  bottom: 20px;
+}
+
+/*-------Costumize or Standart------*/
+.defineForm3 {
+  position: relative;
+  bottom: 50px;
+  left: 450px;
+}
+
+.defineForm3 .standartText{
+  position: relative;
+  top: 50px;
+  right: 205px;
+  width: 300px;
+  height: 50px;
+}
+
+.defineCustume {
+  position: relative;
+  top: 20px;
+  left: 450px;
+}
+
+.CustomBox {
+  position: relative;
+  width: 300px;
+  height: 25px;
+  background-color: #cccccc;
+  opacity: 0.3;
+  top: 40px;
+  left: 337px;
+  border: 2px solid black;
+}
+
+/*next*/
+
+.mainDefine3B #myBtn {
+    position: relative;
+  display: block;
+  top: 30px;
+  width: 40%;
+  left: 280px;
+  height:40px;
+  text-decoration: none;
+  background-color: #cccccc;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 30px;
+  font-family: verdana;
+  font-size: 20px;
+  line-height:40px;
+}
+
+.mainDefine3B .myBtn:hover{
+  background-color: #4d5056;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }/*close media-query*/
-/*------------------------------------Mobile-------------------------------------------*/
+/*-----------------------------------------------------------Mobile---------------------------------------------------------*/
 @media (max-width: 850px){
 
 
@@ -1387,14 +1963,14 @@ body {
 
 .addDeviceIcon2 {
 	position: absolute;
-	top: 537px;
-	left: 230px;
+	top: 460px;
+	left: 220px;
 }
 
 .circle2 {
 	position: absolute;
-	top: 531px;
-	left: 222px;
+	top: 455px;
+	left: 214px;
 	height: 40px;
     border-radius: 50%;
     width: 40px;
@@ -1449,10 +2025,10 @@ body {
 
 #options2 a{
 	position: relative;
-	top: 0px;
+	top: -80px;
 	float: left;
-    width: 450px;
-    height:40px;
+  width: 450px;
+  height:40px;
 	line-height:58px;
 	text-decoration: none;
 	color: #000000;
@@ -2355,7 +2931,7 @@ background-color: #0e60a0;
 
 /*------------------------Mobile-Define Radius------------------------*/
 /*------------Mobile-Define-Radius-Step1-------------*/
-#wrapperMobile .headerStep1B {
+#wrapperMobile1B .headerStep1B {
   width: 480px;
   height: 220px;
   position: relative;
@@ -2610,37 +3186,10 @@ background-color: #0e60a0;
 
 
 /*nav for desktop*/
-.nav1B ul {
-  display: none;
-}
-
-.nav1B li {
-  display: none;
-}
- 
-.nav1B a {
-  display: none;
-}
- 
-.nav1B a:hover {
-  display: none;
-}
-
-.nav1B li {
-  display: none;
-}
-
-.nav1B ul {  
-  display: none;
-}
-
 .nav1B {
   display: none;
 }
  
-.navLogo1B {
-  display: none;
-}
 
 /*Green add/edit device*/
 .moveAddDevice1B {
@@ -2907,7 +3456,7 @@ background-color: #0e60a0;
 
 .radiusFooter {
   position: relative;
-  top: 285px;
+  top: 513px;
   border: 0px solid #000000;
   background-color: #6e9fef;
   width: 480px;
@@ -2974,7 +3523,7 @@ background-color: #0e60a0;
 
 
 /*------------Mobile-Define-Radius-Step3-------------*/
-#wrapperMobile .headerStep3B {
+#wrapperMobile3B .headerStep3B {
   width: 480px;
   height: 60px;
   position: relative;
@@ -3023,7 +3572,6 @@ background-color: #0e60a0;
     width: 30px;
     border:solid #000000 2px;
 }
-
 
 /*----------Burger--------*/
 #menu3B a/*inside settings*/
@@ -3208,6 +3756,10 @@ font-size: 13px;
 
 .defineNext2 a:hover{
   background-color: #4d5056;
+}
+
+.mainDefine3B #myBtn {
+  display: none;
 }
 
 
